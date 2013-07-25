@@ -1,7 +1,7 @@
 {
     "name": "dust-compressor",
     "description": "advanced whitespace compression for dustjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/zaphod1984/dust-compressor"
