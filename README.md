@@ -11,8 +11,8 @@ that leads to lost linebreaks which could lead to invalid and broken inline java
  datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.
 ```
 
-
 ### no whitespace compression:
+```
 
 
 
@@ -20,22 +20,19 @@ that leads to lost linebreaks which could lead to invalid and broken inline java
 
 
 
- datapoint.         anotherDataPoint.
+        datapoint.         anotherDataPoint.
 
- datapoint.         anotherDataPoint.
+        datapoint.         anotherDataPoint.
 
- datapoint.         anotherDataPoint.
-
-
+        datapoint.         anotherDataPoint.
 
 
-
+```
 ### optimized compressor:
 ```
 
  datapoint. anotherDataPoint.
  datapoint. anotherDataPoint.
  datapoint. anotherDataPoint.
-
 
 ```
