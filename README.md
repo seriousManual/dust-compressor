@@ -1,7 +1,10 @@
 # dust-compressor
 
-per default white spaces are compressed.
-that leads to lost linebreaks which could lead to invalid and broken inline javascript/css
+per default white spaces are compressed by stripping out linebreaks.
+that leads to lost linebreaks which could lead to invalid and broken inline javascript/css.
+also multiple spaces are inside a block are ignored.
+
+dust-compressor provides a improved and context sensitive compressor:
 
 ## examples
 (see the examples folder)
@@ -28,7 +31,7 @@ that leads to lost linebreaks which could lead to invalid and broken inline java
 
 
 ```
-### optimized compressor:
+### optimized compressor (per dust-compressor):
 ```
 
  datapoint. anotherDataPoint.
