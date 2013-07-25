@@ -18,4 +18,6 @@ module.exports.install = function(dust) {
 
         return node;
     };
+
+    return dust;
 };

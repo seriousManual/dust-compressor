@@ -9,6 +9,14 @@ also multiple spaces are inside a block are ignored.
 
 dust-compressor provides a improved and context sensitive compressor:
 
+## installation
+`npm install dust-compressor`
+
+## usage
+```
+var dust = require('dust-compressor').install(require('dustjs-linkedin'));
+```
+
 ## examples
 (see the examples folder)
 
