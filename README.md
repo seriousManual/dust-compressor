@@ -11,7 +11,7 @@ dust-compressor provides a improved and context sensitive compressor:
 
 ### default behaviour:
 ```
- datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.
+datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.datapoint.         anotherDataPoint.
 ```
 
 ### no whitespace compression:
@@ -23,19 +23,19 @@ dust-compressor provides a improved and context sensitive compressor:
 
 
 
-        datapoint.         anotherDataPoint.
+       datapoint.         anotherDataPoint.
 
-        datapoint.         anotherDataPoint.
+       datapoint.         anotherDataPoint.
 
-        datapoint.         anotherDataPoint.
+       datapoint.         anotherDataPoint.
 
 
 ```
 ### optimized compressor (per dust-compressor):
 ```
 
- datapoint. anotherDataPoint.
- datapoint. anotherDataPoint.
- datapoint. anotherDataPoint.
+datapoint. anotherDataPoint.
+datapoint. anotherDataPoint.
+datapoint. anotherDataPoint.
 
 ```
