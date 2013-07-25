@@ -1,5 +1,8 @@
 # dust-compressor
 
+[![Build Status](https://travis-ci.org/zaphod1984/dust-compressor.png)](https://travis-ci.org/zaphod1984/dust-compressor)
+[![NPM version](https://badge.fury.io/js/dust-compressor.png)](http://badge.fury.io/js/dust-compressor)
+
 per default white spaces are compressed by stripping out linebreaks.
 that leads to lost linebreaks which could lead to invalid and broken inline javascript/css.
 also multiple spaces are inside a block are ignored.
